@@ -16,7 +16,7 @@
 
 </head>
 <body>
-    
+
 <!-- header section starts  -->
 
 <header class="header">
@@ -87,15 +87,35 @@
 
 <!-- header section ends -->
 
+
+<!-- slideshow banner -->
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img class="banner" src="image/banner-1.png" alt="">
+  </div>
+  <div class="mySlides fade">
+    <img class="banner" src="image/banner-2.png" alt="">
+  </div>
+
+  <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
 <!-- home section starts  -->
-
 <section class="home" id="home">
-
-    <div class="content">
+    <!-- <div class="content">
         <h3>fresh and <span>organic</span> products for your</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero nostrum veniam facere tempore nisi.</p>
         <a href="#" class="btn">shop now</a>
-    </div>
+    </div> -->
 
 </section>
 
@@ -494,18 +514,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/banner-animation.js"></script>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
