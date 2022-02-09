@@ -289,8 +289,7 @@ section {
     text-decoration: underline;
 }
 
-.home {
-    display: flex;
+.content {
     align-items: center;
     justify-content: center;
     /* background: url(../image/banner-1.png) no-repeat;
