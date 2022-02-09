@@ -37,6 +37,12 @@ section {
     padding: 2rem 9%;
 }
 
+#banner{
+    padding: 0;
+}
+
+
+
 .heading {
     text-align: center;
     padding: 2rem 0;
