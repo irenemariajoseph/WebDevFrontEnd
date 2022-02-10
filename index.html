@@ -101,15 +101,13 @@
                 <img class="banner" src="image/banner-2.png" alt="">
             </div>
 
-            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
         </div>
 
         <br>
 
         <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="showSlides1(1)"></span>
+            <span class="dot" onclick="showSlides1(2)"></span>
         </div>
 
     </section>
@@ -163,13 +161,13 @@
 
     <section class="products" id="event">
 
-        <h1 class="heading"> our <span>products</span> </h1>
+        <h1 class="heading"> our <span>event</span> </h1>
 
         <div class="swiper product-slider">
 
             <div class="swiper-wrapper">
 
-                <div class="swiper-slide box">
+                <div class="swiper-slide box animation" id="firstClone">
                     <img src="image/product-1.png" alt="">
                     <h3>fresh orange</h3>
                     <div class="price"> $4.99/- - 10.99/- </div>
@@ -183,7 +181,7 @@
                     <a href="#" class="btn">add to cart</a>
                 </div>
 
-                <div class="swiper-slide box">
+                <div class="swiper-slide box animation">
                     <img src="image/product-2.png" alt="">
                     <h3>fresh onion</h3>
                     <div class="price"> $4.99/- - 10.99/- </div>
@@ -197,7 +195,7 @@
                     <a href="#" class="btn">add to cart</a>
                 </div>
 
-                <div class="swiper-slide box">
+                <div class="swiper-slide box animation">
                     <img src="image/product-3.png" alt="">
                     <h3>fresh meat</h3>
                     <div class="price"> $4.99/- - 10.99/- </div>
@@ -211,7 +209,7 @@
                     <a href="#" class="btn">add to cart</a>
                 </div>
 
-                <div class="swiper-slide box">
+                <div class="swiper-slide box animation" id="lastClone">
                     <img src="image/product-4.png" alt="">
                     <h3>fresh cabbage</h3>
                     <div class="price"> $4.99/- - 10.99/- </div>
@@ -229,7 +227,18 @@
 
         </div>
 
-        <div class="swiper product-slider">
+        <a class="prev-event" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next-event" onclick="plusSlides(1)">&#10095;</a>
+
+        <div style="text-align:center">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+            <span class="dots" onclick="currentSlide(4)"></span>
+        </div>
+
+
+        <!-- <div class="swiper product-slider">
 
             <div class="swiper-wrapper">
 
@@ -291,7 +300,7 @@
 
             </div>
 
-        </div>
+        </div> -->
 
 
     </section>
@@ -532,7 +541,9 @@
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
+    <!-- custom js transition -->
     <script src="js/banner-animation.js"></script>
+    <script src="js/event-transition.js"></script>
 
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
