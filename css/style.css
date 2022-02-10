@@ -731,6 +731,10 @@ section {
     color: var(--orange);
 }
 
+.footer .box-container .box .motto {
+    font-size: 2rem;
+    line-height: 5vh;
+}
 
 
 
