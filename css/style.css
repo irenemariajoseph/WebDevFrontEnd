@@ -37,7 +37,7 @@ section {
     padding: 2rem 9%;
 }
 
-#banner{
+#banner {
     padding: 0;
 }
 
@@ -305,11 +305,13 @@ section {
     padding-bottom: 48rem;
 }
 
-.banner img {vertical-align: middle;}
+.banner img {
+    vertical-align: middle;
+}
 
-.banner{
-  width: 102%;
-  position: relative;
+.banner {
+    width: 102%;
+    position: relative;
 }
 
 .prev, .next, .prev-event, .next-event{
@@ -362,14 +364,14 @@ section {
 }
 
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 8px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .dots {
@@ -390,24 +392,34 @@ section {
 /* fade animation */
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 4s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: 0}
-  to {opacity: 1}
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-  from {opacity: 0}
-  to {opacity: 1}
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 
-.home .content{
+.home .content {
     text-align: center;
     width: 60rem;
 }
@@ -511,13 +523,13 @@ section {
     padding: .5rem 0;
 }
 
-.categories .box-container {
+.community .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
     gap: 1.5rem;
 }
 
-.categories .box-container .box {
+.community .box-container .box {
     padding: 3rem 2rem;
     border-radius: .5rem;
     background: #fff;
@@ -527,23 +539,23 @@ section {
     text-align: center;
 }
 
-.categories .box-container .box:hover {
+.community .box-container .box:hover {
     outline: var(--outline-hover);
     outline-offset: 0rem;
 }
 
-.categories .box-container .box img {
+.community .box-container .box img {
     margin: 1rem 0;
     height: 15rem;
 }
 
-.categories .box-container .box h3 {
+.community .box-container .box h3 {
     font-size: 2rem;
     color: var(--black);
     line-height: 1.8;
 }
 
-.categories .box-container .box p {
+.community .box-container .box p {
     font-size: 1.7rem;
     color: var(--light-color);
     line-height: 1.8;
@@ -746,9 +758,18 @@ section {
     color: var(--orange);
 }
 
-.footer .logo img{
-  width: 200px;
+.footer .box-container .box .motto {
+    font-size: 2rem;
+    line-height: 5vh;
 }
+
+
+
+
+
+
+
+
 
 
 
