@@ -312,10 +312,10 @@ section {
   position: relative;
 }
 
-.prev, .next {
+.prev, .next, .prev-event, .next-event{
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 146%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -327,18 +327,37 @@ section {
   user-select: none;
 }
 
-.prev{
-  left: 30px;
+.prev, .prev-event{
+  left: 100px;
+  color: black;
   border-radius: 3px 0 0 3px;
 }
 
-.next {
-  right: 0;
+.next, .next-event {
+  right: 100px;
+  color: black;
   border-radius: 3px 0 0 3px;
+}
+
+.animation{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fd;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fd {
+  from {opacity: 0.5}
+  to {opacity: 1}
+}
+
+@keyframes fd {
+  from {opacity: 0.5}
+  to {opacity: 1}
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover, .prev-event:hover, .next:hover, .next-event:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
@@ -353,7 +372,18 @@ section {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.dots {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover, .dots:hover {
   background-color: #717171;
 }
 
@@ -716,14 +746,9 @@ section {
     color: var(--orange);
 }
 
-
-
-
-
-
-
-
-
+.footer .logo img{
+  width: 200px;
+}
 
 
 
