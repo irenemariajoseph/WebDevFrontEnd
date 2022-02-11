@@ -317,7 +317,6 @@ section {
 .prev, .next, .prev-event, .next-event{
   cursor: pointer;
   position: absolute;
-  top: 146%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -330,13 +329,18 @@ section {
 }
 
 .prev, .prev-event{
-  left: 100px;
+  position: relative;
+  top: -225px;
+  left: -100px;
   color: black;
   border-radius: 3px 0 0 3px;
 }
 
 .next, .next-event {
-  right: 100px;
+  position: relative;
+  float: right;
+  top: -225px;
+  left: 100px;
   color: black;
   border-radius: 3px 0 0 3px;
 }
