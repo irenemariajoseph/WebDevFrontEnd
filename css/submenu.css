@@ -1,0 +1,78 @@
+.promotion-card {
+	font-family: "Montserrat", sans-serif;
+	background: black;
+	width: 1000px;
+	height: 200px;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 4px;
+	transition: 0.8s ease;
+	background-image: url("../image/donateposter.png");
+	box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.promotion-card .promotion-content {
+
+	padding: 1em;
+	position: absolute;
+}
+
+.promotion-card.light .promotion-content {
+	color: black;
+}
+.promotion-card .promotion-blob {
+	position: absolute;
+	right: -80px;
+	top: -80px;
+	width: 360px;
+	height: 360px;
+	background: #00e600;
+	border-radius: 320px;
+	opacity: 0.8;
+	transition: 0.2s ease;
+}
+.promotion-card .promotion-blob::before {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 240px;
+	height: 240px;
+	background: #00b300;
+	border-radius: 320px;
+	opacity: 0.9;
+	transition: 0.25s ease;
+}
+.promotion-card .promotion-blob::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 160px;
+	height: 160px;
+	background: green;
+	border-radius: 320px;
+	transition: 0.27s ease;
+}
+.promotion-card:hover {
+	transform: translateY(-5%);
+}
+.promotion-card:hover .promotion-blob {
+	width: 540px;
+	height: 540px;
+}
+.promotion-card:hover .promotion-blob::after {
+	width: 240px;
+	height: 240px;
+}
+.promotion-card:hover .promotion-blob::before {
+	width: 360px;
+	height: 360px;
+}
+.promotion-card-deck {
+	display:inline;
+
+	position: absolute;
+	left: 15%;
+	transform: translate(-50%, -50%);
+}
