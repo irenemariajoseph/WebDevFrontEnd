@@ -1,8 +1,8 @@
 .promotion-card {
 	font-family: "Montserrat", sans-serif;
 	background: black;
-	width: 1000px;
-	height: 200px;
+	width: 97rem;
+	height: 20rem;
 	position: absolute;
 	overflow: hidden;
 	border-radius: 4px;
@@ -24,8 +24,8 @@
 	position: absolute;
 	right: -80px;
 	top: -80px;
-	width: 360px;
-	height: 360px;
+	width: 36rem;
+	height:36rem;
 	background: #00e600;
 	border-radius: 320px;
 	opacity: 0.8;
@@ -73,7 +73,7 @@
 	display:inline;
 
 	position: absolute;
-	margin: 0 2rem;
+	margin: 0 auto;
 	transform: translate(-50%, -50%);
 }
 /* INI ROOTTTT  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
@@ -109,8 +109,6 @@ html {
 }
 .heading {
     text-align: center;
-    padding: 2rem 0;
-    padding-bottom: 3rem;
     font-size: 3.5rem;
     color: var(--black);
 }
@@ -382,7 +380,7 @@ body {
 h1 {
 	font-size:2em;
 	text-align:center;
-	margin:20px 0 40px;
+	margin:20px 0 20px;
 	padding:0;
   }
   .containertime {

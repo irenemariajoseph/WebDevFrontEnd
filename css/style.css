@@ -35,7 +35,7 @@ body {
 }
 
 section {
-    padding: 2rem 9%;
+    padding: 2rem 12%;
 }
 
 #banner {
@@ -46,8 +46,6 @@ section {
 
 .heading {
     text-align: center;
-    padding: 2rem 0;
-    padding-bottom: 3rem;
     font-size: 3.5rem;
     color: var(--black);
 }
@@ -143,8 +141,6 @@ section {
 #menu-btn {
     display: none;
 }
-
-
 
 .header .login-form {
     position: absolute;
@@ -379,7 +375,8 @@ section {
 }
 
 .products  {
-    background-color: #52aa35;
+    background-image: url(../image/backgroundevent.png);
+
 }
 
 .products .product-slider {
