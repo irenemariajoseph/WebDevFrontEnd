@@ -378,6 +378,10 @@ section {
     padding: 1rem 0;
 }
 
+.products  {
+    background-color: #52aa35;
+}
+
 .products .product-slider {
     padding: 1rem;
 }
@@ -788,6 +792,3 @@ section {
 
 
 
-body:not(.modal-open){
-    padding-right: 0px !important;
-  }

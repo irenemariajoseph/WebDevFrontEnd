@@ -49,8 +49,8 @@
 
         <form action="" class="login-form">
             <h3>login now</h3>
-            <input type="email" placeholder="your email" class="box">
-            <input type="password" placeholder="your password" class="box">
+            <input type="email" placeholder="your email" class="box" required>
+            <input type="password" placeholder="your password" class="box" required>
             <p>forget your password <a href="#">click here</a></p>
             <p>don't have an account <a href="#">create now</a></p>
             <input type="submit" value="login now" class="btn">
@@ -168,7 +168,7 @@
                             <!--Text-->
 
                             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                            <button type="button" class="btn btn-light-blue btn-md">Forum</button>
+                            <a href="timeline.html" class="btn  btn-lg " role="button" aria-disabled="true">Forum</a>
 
                         </div>
 
@@ -284,8 +284,6 @@
                 </div>
             </div>
         </div>
-        <br>
-        <br>
         <br>
         <br>
         <br>
@@ -441,10 +439,10 @@
                             <div class="form-group row">
                                 <label for="id" class="col-sm-2 col-form-label">Name</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="name_id" name="Name"
-                                        placeholder="Enter your Name" required />
+                                    <input type="text" class="form-control" id="name_id" name="Long Name"
+                                        placeholder="Enter your Name" required>
                                     <div class="invalid-feedback">
-                                        Please choose a Name.
+                                        Please Fill with Name
                                     </div>
                                 </div>
                             </div>
@@ -452,15 +450,53 @@
 
                             <br>
                             <div class="form-group row">
-                                <label for="id" class="col-sm-2 col-form-label">Password</label>
+                                <label for="id" class="col-sm-2 col-form-label">Email</label>
                                 <div class="col-sm-10">
-                                    <input type="password" class="form-control" id="password_id" name="Password"
-                                        placeholder="Enter your Password" required />
+                                    <input type="email" class="form-control" id="name_id" name="Email"
+                                        placeholder="Enter your Email" required />
                                     <div class="invalid-feedback">
-                                        Please choose a Password.
+                                        Please Fill with Email
                                     </div>
                                 </div>
                             </div>
+
+                            <br>
+                            <div class="form-group row">
+                                <label for="id" class="col-sm-2 col-form-label">Telephone</label>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" id="name_id" name="Name"
+                                        placeholder="Enter your Phone Number" required />
+                                    <div class="invalid-feedback">
+                                        Please choose a Name.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="form-group row">
+                                <label for="id" class="col-sm-2 col-form-label">People</label>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" id="name_id" name="Name"
+                                        placeholder="Enter your Number of People" required />
+                                    <div class="invalid-feedback">
+                                        Please choose a Name.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="form-group row">
+                                <label for="id" class="col-sm-2 col-form-label">Pets</label>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" id="name_id" name="Name"
+                                        placeholder="Enter your Number of Pets" required />
+                                    <div class="invalid-feedback">
+                                        Please choose a Name.
+                                    </div>
+                                </div>
+                            </div>
+
+
 
                             <div class="text-center">
                                 <button class="btn btn-success" type="submit">Submit</button>
