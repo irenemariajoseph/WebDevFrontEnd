@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Livvic:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Livvic:wght@500&display=swap');
 .promotion-card {
 	font-family: "Montserrat", sans-serif;
 	background: black;
@@ -12,7 +14,6 @@
 }
 
 .promotion-card .promotion-content {
-
 	padding: 1em;
 	position: absolute;
 }
@@ -77,8 +78,7 @@
 	transform: translate(-50%, -50%);
 }
 /* INI ROOTTTT  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Livvic:wght@500&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Livvic:wght@500&display=swap');
+
 :root {
     --green: #43802E;
     --black: #130f40;
@@ -258,123 +258,128 @@ body {
 	font-family: sans-serif;
 	font-size: 14px;
 	padding: 0;
-  }
+  background-image: url(../image/backgroundevent.png);
+}
   
-  a {
+a {
 	text-decoration: none;
 	cursor: pointer;
-  }
+}
   
-  a:hover {
+a:hover {
 	color: #B33;
-  }
+}
   
-  a:hover .name {
+a:hover .name {
 	text-decoration: underline;
-  }
+}
   
-  p {
+p {
 	margin-top: 0;
-  }
-  
-  .cardtweet {
-	border: 1px solid #eee;
+}
+
+.cardtweet {
+	border: 1px solid green;
 	border-radius: 4px;
+  background-color: white;
 	padding: 12px;
-  }
+}
   
-  .cardtweet.summary {
+.cardtweet.summary {
 	padding: 0;
-  }
+}
   
-  .cardtweet.summary > .background {
+.cardtweet.summary > .background {
 	display: block;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	padding: 0;
 	margin: 0;
 	width: 100%;
-  }
+}
   
-  .cardtweet.summary > .information {
+.cardtweet.summary > .information {
 	color: #333;
 	border-top: 1px solid #eee;
 	padding: 8px 12px;
-  }
+}
   
-  .cardtweet.summary > .information > .title {
+.cardtweet.summary > .information > .title {
 	font-weight: bold;
-  }
+}
   
-  .cardtweet.summary > .information > div:not(:last-child) {
+.cardtweet.summary > .information > div:not(:last-child) {
 	margin-bottom: 4px;
-  }
+}
   
-  .cardtweet.summary .domain {
+.cardtweet.summary .domain {
 	color: #888;
-  }
+}
   
-  .tweets-container {
+.tweets-container {
 	margin: auto;
-	max-width: 600px;
-  }
+  max-width: 80rem;
+}
   
-  .tweets-header {
+.tweets-header {
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: -1px;
-  }
+}
   
-  .tweets-container > .tweet:last-child {
+.tweets-container > .tweet:last-child {
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
-  }
+  max-width: 80rem;
+}
   
-  .tweet {
+.tweet {
 	position: relative;
 	border-radius: 0;
 	padding-left: 72px;
 	margin-bottom: -1px;
-  }
+
+}
   
-  .tweet > .author > .avatar {
+.tweet > .author > .avatar {
 	position: absolute;
 	border-radius: 4px;
 	top: 12px;
 	left: 12px;
 	width: 48px;
 	height: 48px;
-  }
+}
   
-  .tweet > .author > .name {
+.tweet > .author > .name {
 	font-weight: bold;
-  }
+  color: var(--green);
+}
   
-  .tweet > .author > .username {
+.tweet > .author > .username {
 	color: #888;
-  }
+}
   
-  .tweet > .actions > .fa {
-	color: #888;
+.tweet > .actions > .fa {
+	color: var(--green);
 	cursor: pointer;
 	font-size: 16px;
 	margin-top: 12px;
 	margin-right: 36px;
-  }
+}
   
-  .tweet > .actions > .fa-reply:hover {
-	color: dodgerblue;
-  }
+.tweet > .actions > .fa-reply:hover {
+	color: dodgerblue;  
+}
   
-  .tweet > .actions > .fa-retweet:hover {
+.tweet > .actions > .fa-retweet:hover {
 	color: limegreen;
-  }
+}
   
-  .tweet > .actions > .fa-heart:hover {
+.tweet > .actions > .fa-heart:hover {
 	color: #B33;
-  }
+}
   /* aaaaaaaaaaaaaaaa */
   
 h1 {
@@ -382,41 +387,48 @@ h1 {
 	text-align:center;
 	margin:20px 0 20px;
 	padding:0;
-  }
-  .containertime {
+}
+  
+.containertime {
 	  background:wheat;
 	  width:80%;
 	  margin:0 auto;
 	  overflow:auto;
 	  padding:2%;
-  }
-  .right-content, .left-content {
+}
+
+.right-content, .left-content {
 	  float:left;
 	  display:block;
 	  width:40%;
 	  padding:1% 2%;
-  }
-  .left-content {
+}
+
+.left-content {
 	  border-right:5px dotted #666;	
 	  text-align:right;
-  }
-  .left-content p {
+}
+
+.left-content p {
 	  margin:150px 0 0;
-  }
-  .right-content p {
+}
+  
+.right-content p {
 	  margin:80px 0 150px;
-  }
-  .containertime p {
+}
+
+.containertime p {
   -webkit-transition: all 0.7s ease-in-out;
   -moz-transition: all 0.7 ease-in-out;
   -ms-transition: all 0.7s ease-in-out;
   -o-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;	
-  }
-  .left-content .more-padding {
+}
+.left-content .more-padding {
 	padding-right:100px;
-  }
-  .right-content .more-padding {
+
+}
+.right-content .more-padding {
 	padding-left:100px;
-  }
+}
   
