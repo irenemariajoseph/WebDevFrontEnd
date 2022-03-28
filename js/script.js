@@ -1,4 +1,6 @@
 window.onload = function () {
+
+
   // your code 
 
   let loginForm = document.querySelector('.login-form');
