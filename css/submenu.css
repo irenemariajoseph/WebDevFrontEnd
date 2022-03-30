@@ -78,6 +78,7 @@
 	transform: translate(-50%, -50%);
 }
 
+
 .tittle-place {
   font-size: 30px;
   text-align: center;
@@ -198,6 +199,7 @@
     font-weight: 400;
     width: 100%;
 }
+
 /* INI ROOTTTT  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
 
 :root {
@@ -499,8 +501,12 @@ p {
 
 
 .containertime {
-	  background:wheat;
+	  background:white;
+    border-radius: 2rem;
+    border: 2px solid var(--green);
+    box-shadow: 0 10px 17px rgba(154, 204, 160, 0.2);
 	  width:80%;
+
 	  margin:0 auto;
 	  overflow:auto;
 	  padding:2%;
@@ -519,7 +525,8 @@ p {
 }
 
 .left-content .kontengrup {
-	  margin:20rem 0 0;
+	  margin-bottom:20rem;
+    margin-top: 10rem;
 }
 
 .right-content .kontengrup {
