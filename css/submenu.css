@@ -697,6 +697,7 @@ p {
 
     .header .navbar {
         position: absolute;
+        display: inline-block;
         top: 110%;
         right: -110%;
         width: 30rem;
