@@ -40,7 +40,7 @@ section {
 
 #banner {
     padding: 0;
-    background-image: url(../image/poster1.png);
+    background-image: url(../image/banner-2.png);
     background-size: contain;
 
 }
@@ -207,7 +207,7 @@ section {
 .banner {
     width: 100%;
     position: relative;
-    background-image: url(../image/banner-1.png);
+  
 }
 
 .prev, .next, .prev-event, .next-event{
