@@ -107,12 +107,13 @@
 }
 
 .content-detail{
-	padding-right: 5vw;
+  padding-right: 5vw;
+  padding-left: 10vw;
 	font-size: 16px;
 }
 
 .content-img .card-img-top{
-	width: 100%;
+	width: 150%;
 	border-radius: 0.75rem;
 	border: 5px solid var(--black);
 	object-fit: cover;
@@ -136,6 +137,7 @@
 }
 
 .menu {
+  padding-bottom: 2vw;
 	display: grid;
 	grid-template-columns: repeat(3, minmax(1rem, 1fr));
 	column-gap: 2rem;
@@ -146,6 +148,7 @@
 
 .list-menu-description {
     grid-column: span 1;
+    padding: 0 5vw;
 }
 
 .list-menu-description .menu-title {
@@ -163,6 +166,10 @@
     display: inline-block;
     text-decoration: none;
     margin: 1rem 0;
+}
+
+.menu-section{
+  padding: 0 1vw;
 }
 
 .menu-container {
@@ -189,7 +196,7 @@
 
 .menu-icon {
     display: inline-block;
-    width: 3.3rem;
+    width: 35%;
     border-radius: 50%;
     margin-bottom: 0.5rem;
 }
