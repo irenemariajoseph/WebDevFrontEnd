@@ -19,7 +19,11 @@
     border: none;
     text-decoration: none;
     text-transform: capitalize;
+<<<<<<< HEAD
     
+=======
+    transition: all .2s linear;
+>>>>>>> parent of a7b2ff6 (hadehh)
 }
 
 html {
@@ -767,6 +771,7 @@ section {
     }
 
 }
+<<<<<<< HEAD
 
 
 
@@ -794,3 +799,5 @@ section {
 
 
 
+=======
+>>>>>>> parent of a7b2ff6 (hadehh)
