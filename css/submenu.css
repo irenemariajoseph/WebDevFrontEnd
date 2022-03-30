@@ -2,81 +2,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Livvic:wght@500&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Livvic:wght@500&display=swap');
 .promotion-card {
-	font-family: "Montserrat", sans-serif;
-	background: black;
-	width: 97rem;
-	height: 20rem;
-	position: absolute;
-	overflow: hidden;
-	border-radius: 4px;
-	transition: 0.8s ease;
-	background-image: url("../image/donateposter.png");
-	box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.15);
+ font-family: "Montserrat", sans-serif;
+ background: black;
+ width: 97rem;
+ height: 20rem;
+ position: absolute;
+ overflow: hidden;
+ border-radius: 4px;
+ transition: 0.8s ease;
+ background-image: url("../image/donateposter.png");
+ box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.15);
 }
 
 .promotion-card .promotion-content {
-	padding: 1em;
-	position: absolute;
+ padding: 1em;
+ position: absolute;
 }
 
 .promotion-card.light .promotion-content {
-	color: black;
+ color: black;
 }
 .promotion-card .promotion-blob {
-	position: absolute;
-	right: -80px;
-	top: -80px;
-	width: 36rem;
-	height:36rem;
-	background: #00e600;
-	border-radius: 320px;
-	opacity: 0.8;
-	transition: 0.2s ease;
+ position: absolute;
+ right: -80px;
+ top: -80px;
+ width: 36rem;
+ height:36rem;
+ background: #00e600;
+ border-radius: 320px;
+ opacity: 0.8;
+ transition: 0.2s ease;
 }
 .promotion-card .promotion-blob::before {
-	content: "";
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 240px;
-	height: 240px;
-	background: #00b300;
-	border-radius: 320px;
-	opacity: 0.9;
-	transition: 0.25s ease;
+ content: "";
+ position: absolute;
+ right: 0;
+ top: 0;
+ width: 240px;
+ height: 240px;
+ background: #00b300;
+ border-radius: 320px;
+ opacity: 0.9;
+ transition: 0.25s ease;
 }
 .promotion-card .promotion-blob::after {
-	content: "";
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 160px;
-	height: 160px;
-	background: green;
-	border-radius: 320px;
-	transition: 0.27s ease;
+ content: "";
+ position: absolute;
+ right: 0;
+ top: 0;
+ width: 160px;
+ height: 160px;
+ background: green;
+ border-radius: 320px;
+ transition: 0.27s ease;
 }
 .promotion-card:hover {
-	transform: translateY(-5%);
+ transform: translateY(-5%);
 }
 .promotion-card:hover .promotion-blob {
-	width: 540px;
-	height: 540px;
+ width: 540px;
+ height: 540px;
 }
 .promotion-card:hover .promotion-blob::after {
-	width: 240px;
-	height: 240px;
+ width: 240px;
+ height: 240px;
 }
 .promotion-card:hover .promotion-blob::before {
-	width: 360px;
-	height: 360px;
+ width: 360px;
+ height: 360px;
 }
 .promotion-card-deck {
-	display:inline;
+ display:inline;
 
-	position: absolute;
-	margin: 0 auto;
-	transform: translate(-50%, -50%);
+ position: absolute;
+ margin: 0 auto;
+ transform: translate(-50%, -50%);
 }
 
 .tittle-place {
@@ -518,7 +518,7 @@ p {
 <<<<<<< HEAD
 	  border-right:5px dotted #666;
 =======
-	  border-right:5px dotted #666;	
+	  border-right:5px dotted #666;
 >>>>>>> parent of 2d9b7c8 (bannerrrr)
 	  text-align:right;
 }
