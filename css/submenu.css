@@ -90,7 +90,7 @@
 }
 
 * {
- 
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -98,7 +98,7 @@
     border: none;
     text-decoration: none;
     text-transform: capitalize;
-    
+
 }
 
 html {
@@ -254,20 +254,20 @@ html {
 
 
 /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
-  
+
 a {
 	text-decoration: none;
 	cursor: pointer;
 }
-  
+
 a:hover {
 	color: #B33;
 }
-  
+
 a:hover .name {
 	text-decoration: underline;
 }
-  
+
 p {
 	margin-top: 0;
 }
@@ -278,11 +278,11 @@ p {
   background-color: white;
 	padding: 12px;
 }
-  
+
 .cardtweet.summary {
 	padding: 0;
 }
-  
+
 .cardtweet.summary > .background {
 	display: block;
 	border-top-left-radius: 4px;
@@ -291,30 +291,30 @@ p {
 	margin: 0;
 	width: 100%;
 }
-  
+
 .cardtweet.summary > .information {
 	color: #333;
 	border-top: 1px solid #eee;
 	padding: 8px 12px;
 }
-  
+
 .cardtweet.summary > .information > .title {
 	font-weight: bold;
 }
-  
+
 .cardtweet.summary > .information > div:not(:last-child) {
 	margin-bottom: 4px;
 }
-  
+
 .cardtweet.summary .domain {
 	color: #888;
 }
-  
+
 .tweets-container {
 	margin: auto;
   max-width: 80rem;
 }
-  
+
 .tweets-header {
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
@@ -322,13 +322,13 @@ p {
 	font-weight: bold;
 	margin-bottom: -1px;
 }
-  
+
 .tweets-container > .tweet:last-child {
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
   max-width: 80rem;
 }
-  
+
 .tweet {
 	position: relative;
 	border-radius: 0;
@@ -336,7 +336,7 @@ p {
 	margin-bottom: -1px;
 
 }
-  
+
 .tweet > .author > .avatar {
 	position: absolute;
 	border-radius: 4px;
@@ -345,16 +345,16 @@ p {
 	width: 48px;
 	height: 48px;
 }
-  
+
 .tweet > .author > .name {
 	font-weight: bold;
   color: var(--green);
 }
-  
+
 .tweet > .author > .username {
 	color: #888;
 }
-  
+
 .tweet > .actions > .fa {
 	color: var(--green);
 	cursor: pointer;
@@ -362,28 +362,28 @@ p {
 	margin-top: 12px;
 	margin-right: 36px;
 }
-  
+
 .tweet > .actions > .fa-reply:hover {
-	color: dodgerblue;  
+	color: dodgerblue;
 }
-  
+
 .tweet > .actions > .fa-retweet:hover {
 	color: limegreen;
 }
-  
+
 .tweet > .actions > .fa-heart:hover {
 	color: #B33;
 }
   /* aaaaaaaaaaaaaaaa */
-  
-  
+
+
 .containertime {
 	  background:white;
     border-radius: 2rem;
-    border: 2px solid var(--green);	
+    border: 2px solid var(--green);
     box-shadow: 0 10px 17px rgba(154, 204, 160, 0.2);
 	  width:80%;
-  
+
 	  margin:0 auto;
 	  overflow:auto;
 	  padding:2%;
@@ -405,7 +405,7 @@ p {
 	  margin-bottom:20rem;
     margin-top: 10rem;
 }
-  
+
 .right-content .kontengrup {
 	  margin:10rem 0 10rem;
 }
@@ -415,7 +415,7 @@ p {
   -moz-transition: all 0.7 ease-in-out;
   -ms-transition: all 0.7s ease-in-out;
   -o-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;	
+  transition: all 0.7s ease-in-out;
 }
 .left-content .more-padding {
 	padding-right:100px;
@@ -425,7 +425,7 @@ p {
 	padding-left:100px;
 }
   /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
-  
+
 .footer {
   background: #fff;
 }
@@ -522,4 +522,3 @@ p {
   font-size: 2rem;
   line-height: 5vh;
 }
-
