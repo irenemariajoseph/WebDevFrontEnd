@@ -138,12 +138,24 @@
   box-shadow: var(--box-shadow);
 }
 
-.tag {
+.tagfriend {
   border-radius: 2rem;
   display: inline;
-  color: #fff;
-  padding: 5px;
-  background-color: var(--light-color);
+  color: black;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #E0F8D4;
+}
+
+
+.tagform {
+  border-radius: 2rem;
+  display: inline;
+  color: black;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #B0D7FF;
 }
 
 .menu {

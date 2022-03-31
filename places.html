@@ -77,8 +77,10 @@
             yang dibangun oleh Agung Podomoro Land dan dibuka secara resmi untuk umum oleh Presiden Republik Indonesia
             Susilo Bambang Yudhoyono pada tanggal 9 September 2009.</div>
           <br>
-          <div class="tag">pet-friendly</div>
-          <div class="tag">Reptil-friendly</div>
+          <div class="tagfriend">pet-friendly</div>
+          <div class="tagfriend">Reptil-friendly</div>
+
+          <a class="tagform" data-bs-toggle="modal" data-bs-target="#myModal"> Make An Appointment </a>
         </div>
       </div>
       <div class="menu wrapper">
@@ -191,7 +193,137 @@
     <div class="credit"> created by <span> Faunasia Corp. </span> | all rights reserved </div>
 
   </section>
+  <!-- The Modal -->
+  <div class="modal" style="overflow: hidden;padding-right: 0px;" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
 
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title w-100 text-center">Form</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <!-- adding Bootstrap Form here -->
+
+          <form id="myForm" class="needs-validation" novalidate>
+            <div class="container">
+
+              <div class="form-group row">
+                <label for="id" class="col-sm-2 col-form-label">Date</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="name_id" name="Long Name"
+                    placeholder="dwi tolong diganti inoutan date" required>
+                  <div class="invalid-feedback">
+                    Please Fill with Name
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="form-group row">
+                <label for="id" class="col-sm-2 col-form-label">Hour</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="name_id" name="Long Name"
+                    placeholder="dwi tolong diganti inoutan jam" required>
+                  <div class="invalid-feedback">
+                    Please Fill with Name
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="form-group row">
+                <label for="id" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="name_id" name="Long Name" placeholder="Enter your Name"
+                    required>
+                  <div class="invalid-feedback">
+                    Please Fill with Name
+                  </div>
+                </div>
+              </div>
+
+
+              <br>
+              <div class="form-group row">
+                <label for="id" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="name_id" name="Email" placeholder="Enter your Email"
+                    required />
+                  <div class="invalid-feedback">
+                    Please Fill with Email
+                  </div>
+                </div>
+              </div>
+
+              <br>
+              <div class="form-group row">
+                <label for="id" class="col-sm-2 col-form-label">Telephone</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="name_id" name="Name"
+                    placeholder="Enter your Phone Number" required />
+                  <div class="invalid-feedback">
+                    Please choose a Name.
+                  </div>
+                </div>
+              </div>
+
+              <br>
+              <div class="form-group row">
+                <label for="id" class="col-sm-2 col-form-label">Type of Pets</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="name_id" name="Name"
+                    placeholder="Enter your Breed of Pets" required />
+                  <div class="invalid-feedback">
+                    Please choose a Name.
+                  </div>
+                </div>
+              </div>
+
+              <br>
+              <div class="form-group row">
+                <label for="id" class="col-sm-2 col-form-label">Total Pets</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="name_id" name="Name"
+                    placeholder="Enter your Number of Pets" required />
+                  <div class="invalid-feedback">
+                    Please choose a Name.
+                  </div>
+                </div>
+              </div>
+
+
+              <br>
+              <div class="form-group row">
+                <label for="id" class="col-sm-2 col-form-label">Req Notes</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="name_id" name="Name" placeholder="Enter your Request"
+                    required />
+                  <div class="invalid-feedback">
+                    Please choose a Name.
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="text-center">
+                <button class="btn btn-success" type="submit">Submit</button>
+              </div>
+            </div>
+          </form>
+
+          <script>
+
+          </script>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
 </body>
 
 <style>
@@ -199,6 +331,6 @@
     font-family: sans-serif;
     font-size: 14px;
     padding: 0;
-    background-image: url(image/backgroundevent.png);
+    background-image: url(image/bg2.png);
   }
 </style>
