@@ -11,7 +11,7 @@
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -40,6 +40,9 @@ section {
 
 #banner {
     padding: 0;
+    background-image: url(../image/banner-2.png);
+    background-size: contain;
+
 }
 
 
@@ -204,6 +207,7 @@ section {
 .banner {
     width: 100%;
     position: relative;
+
 }
 
 .prev, .next, .prev-event, .next-event{
@@ -289,7 +293,7 @@ section {
 
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 4s;
     animation-name: fade;
     animation-duration: 4s;
 }
@@ -443,7 +447,6 @@ section {
   border-radius: 0.75rem;
 }
 
-
 .products  {
     background-image: url(../image/backgroundevent.png);
 
@@ -522,7 +525,7 @@ section {
 }
 
 .community .box-container .box h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--black);
     line-height: 1.8;
