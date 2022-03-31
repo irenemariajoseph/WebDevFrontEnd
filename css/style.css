@@ -40,7 +40,7 @@ section {
 
 #banner {
     padding: 0;
-    background-image: url(../image/banner-2.png);
+    background-image: url(../image/poster1.png);
     background-size: contain;
 
 }
@@ -376,6 +376,75 @@ section {
     line-height: 1.8;
     color: var(--light-color);
     padding: 1rem 0;
+}
+/* aaaaaaaaaaaaaaaaaa */
+.places .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap: 1.5rem;
+}
+
+.location-icon{
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.places .card-tags .tag {
+  border-radius: 2rem;
+  display: inline;
+  color: #fff;
+  padding: 3px;
+  background-color: var(--light-color);
+}
+
+.places .box-container .box {
+    border-radius: .5rem;
+    background: #fff;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.places .box-container .box:hover {
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.places .box-container .box img {
+    margin: 1rem 0;
+    height: 20rem;
+}
+
+.places .box-container .box h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 1.8;
+}
+
+.places .box-container .box p {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+ .places .card-img-top{
+   position: relative;
+   display: block;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 0.75rem;
+   transform: scale(1.1);
+   transition: 0.4
+}
+
+.places .view {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 0.75rem;
 }
 
 .places .box-container {
