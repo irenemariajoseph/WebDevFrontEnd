@@ -161,7 +161,7 @@
 .menu {
   padding-bottom: 2vw;
   display: grid;
-  grid-template-areas: 'item1 item1 item2 item3';
+  grid-template-areas: 'item1  item2 item3';
   gap: 10px;
   margin: 4rem 4rem 2rem 4rem;
   max-width: 100%;
@@ -190,7 +190,6 @@
 }
 
 .menu-section1 {
-  padding: 0 1vw;
   grid-area: item2;
 }
 
