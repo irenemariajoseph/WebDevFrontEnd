@@ -410,6 +410,11 @@ section {
     max-height: 20px;
 }
 
+.places .col-sm-6 {
+    flex: 0 0 auto;
+    width: 33%;
+}
+
 .places .card-tags .tagfriend {
     border-radius: 2rem;
     display: inline;
@@ -438,18 +443,12 @@ section {
 }
 
 
-
 .places .box-container .box {
-    border-radius: .5rem;
-    background: #fff;
     padding: 3rem 2rem;
     border-radius: .5rem;
-    box-shadow: var(--box-shadow);
 }
 
 .places .box-container .box:hover {
-    outline: var(--outline-hover);
-    outline-offset: 0rem;
 }
 
 .places .box-container .box img {
