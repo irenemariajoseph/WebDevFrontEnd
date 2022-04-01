@@ -161,15 +161,14 @@
 .menu {
   padding-bottom: 2vw;
   display: grid;
-  grid-template-columns: repeat(3, minmax(1rem, 1fr));
-  column-gap: 2rem;
-  row-gap: 1rem;
+  grid-template-areas: 'item1 item1 item2 item3';
+  gap: 10px;
   margin: 8rem 0 1rem 0;
   max-width: 100%;
 }
 
 .list-menu-description {
-  grid-column: span 1;
+  grid-area: item1;
   padding: 0 5vw;
 }
 
@@ -190,8 +189,14 @@
   margin: 1rem 0;
 }
 
-.menu-section {
+.menu-section1 {
   padding: 0 1vw;
+  grid-area: item2;
+}
+
+.menu-section2 {
+  padding: 0 1vw;
+  grid-area: item3;
 }
 
 .menu-container {

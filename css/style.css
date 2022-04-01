@@ -410,7 +410,17 @@ section {
     max-height: 20px;
 }
 
-.places .col-sm-6 {
+.places .item1 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.places .item2 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.places .col-sm-6 .item2{
     flex: 0 0 auto;
     width: 33%;
 }
