@@ -11,6 +11,7 @@
     --outline-hover: .2rem solid var(--green);
 }
 
+/* heloooooooooooooooooooooo~ */
 * {
 
     margin: 0;
@@ -420,7 +421,7 @@ section {
     width: 25%;
 }
 
-.places .col-sm-6 .item2{
+.places .col-sm-6 .item2 {
     flex: 0 0 auto;
     width: 33%;
 }
@@ -458,8 +459,7 @@ section {
     border-radius: .5rem;
 }
 
-.places .box-container .box:hover {
-}
+.places .box-container .box:hover {}
 
 .places .box-container .box img {
     margin: 1rem 0;
